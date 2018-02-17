@@ -25,12 +25,20 @@ The distribution of `Stance` classes in `train_stances.csv` is as follows:
 |-------:|------------:|----------:|----------:|-----------:|
 |  49972 |    0.73131  |  0.17828  | 0.0736012 |  0.0168094 |
 
+## Microsoft Azure Machine Learning Studio Experiment
+![]('./img/experiment.png')
+
+## Model Prediction Accuracy
+Deep Neural Network: 86%
+![]('./img/metrics.png')
+
+
 ## TODO
 - [x] find a suitable ML library for price prediction - Azure Machine Learning Library
 - [x] determine input features - (headline, body)
 - [x] find data to train the model - found
-- [ ] build Azure experiment
-- [ ] analyze model prediction accuracy
+- [x] build Azure experiment - done
+- [x] analyze model prediction accuracy - done
 - [ ] design backend API
 - [ ] design chatbot interface (possible integration with Slack?)
 - [ ] test
